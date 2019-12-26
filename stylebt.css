@@ -1,0 +1,206 @@
+
+#title{                     /*  ID starts from #   */
+    background-color: #ff4c68;
+    color: #fff; 
+    
+}
+h1{
+    font-family:;
+    font-size: 3 rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+ .container-fluid{
+padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+} 
+
+/* navigation bar */
+
+.navbar-brand{
+    font-family:inherit;
+
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.navbar{
+    
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+        padding-right=0;
+}
+
+.nav-item{
+    padding-right: 18px;
+    padding-right: 18px;
+    font-size: 1.2rem;
+}
+
+/*  buttons */
+
+.btn{
+    margin: 5% 3% 5% 0%
+}
+
+/*  title-image  */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    
+   
+}
+#features{
+    text-align: center;
+    padding: 7% 7% 15% 5%;  /*--top,bottom,right,left*/
+    
+    
+    
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 0%
+    
+}
+
+h3{
+    font-family:sans-serif;
+    font-weight: 700;
+}
+p{
+    color: #8f8f8f;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+  .icon:hover{
+   color: #ff4c68;
+} 
+
+/*  testimonials  */
+
+#testimonials{
+    text-align: center;
+      
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+    margin-bottom: 
+    
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: -100px;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.carousel-item{
+    padding: 15% 7%;
+}
+
+
+
+
+/*      pricing section     */
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloumn{
+    padding: 3% 2%;               /* top-bottom and left-right  */
+}
+
+
+#cta{
+    text-align: center;
+     background-color: #ff4c68;
+    padding-top: 7%  ;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 7%;
+     color: #fff;
+}
+
+#footer{
+    padding: 7% 15%;
+    background-color:;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px; 10px;
+}
+
+@media(max-width:1028px){ 
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
